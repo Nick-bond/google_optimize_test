@@ -1,9 +1,11 @@
 const puppeteer = require('puppeteer');
-const URL = <URL>
+const URL = '<URL>';
+const quantityOfTestRun = 20;
+
 let result = 1;
 
 const testEnvForExper = () => {
-  if (result === 20) {
+  if (result === quantityOfTestRun) {
     clearInterval(timer);
     return;
   }
