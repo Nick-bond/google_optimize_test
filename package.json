@@ -1,0 +1,11 @@
+{
+  "name": "google_optimize_test",
+  "version": "1.0.0",
+  "description": "Test Google Optimize",
+  "main": "go-test.js",
+  "author": "Nick Bond",
+  "license": "MIT",
+  "dependencies": {
+    "puppeteer": "^2.1.0"
+  }
+}
